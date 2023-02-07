@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "VCR-OCD";
+    src: url('VCR_OSD_MONO_1.001.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    border: solid black;
+    
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 40px;
+    font-family:  Helvetica, sans-serif   ;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-shadow:3px 1px #c36b93;
+}
+
+.nav-list li a:hover{ 
+    text-decoration: none; 
+    color: white;
+}
+.rightNav{
+    width: 50%;
+    text-align: right; 
+    padding: 0 25px;
+}
+#search{
+    padding: 5px;
+    font-size: 15px;
+    border:5px black;
+    border-radius: 30px;
+   
+}
+.background
+{
+    /*background:  url('mini2.jpg');*/
+   background: #EFA18A;
+    background-size: cover; 
+    width: 100%;
+    background-position-y: center;
+    background-blend-mode: darken;
+    background-image: url('Untitled-1.png');
+    background-blend-mode:darken;
+
+   
+}
+.background-again
+{
+   /* background:  url('mini2.jpg');*/
+   background: #EFA18A;
+    background-size: auto;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 65vh;
+}
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoi UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: black;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+    padding-top: 20px;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondHalf{
+    width: 30%;
+
+}
+.secondHalf img {
+    width: 150%;
+    padding-top: 60px;
+    border: 5px black;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom:25px;
+    text-align:center; 
+
+}
+.text-small{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align-last: center;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family:  Helvetica, sans-serif;
+    font-style: oblique;
+    
+    stroke: solid black;
+    stroke-width: 5px;
+    color: #F8E36A;
+    background: black;
+    cursor: pointer;
+}
+.btn:active{
+    color: rgb(219, 156, 9);
+    
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+  }
+.btn-2:active{
+    color: rgb(219, 156, 9);
+    
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+  }
+.btn:hover {
+    color: #000000 ;
+    background: #f6b93b;
+    border-color: #f6b93b ;
+    
+    transition: all 0.4s ease 0s;
+}
+.btn-2{
+    padding: 8px 20px;
+    margin: 14px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    background: black;
+    font-family:  Helvetica, sans-serif;
+    font-style: oblique;
+    stroke-width: 5px;
+    color: #F8E36A;
+    cursor: pointer;
+   
+}
+.btn-2:hover {
+    color: #000000 ;
+    background: #f6b93b;
+    border-color: #f6b93b ;
+    
+    transition: all 0.4s ease 0s;
+}
+.btn-sm{
+    padding: 3px 10px;
+    margin: 7px 0px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    background: black;
+    font-family:  Helvetica, sans-serif;
+    font-style: oblique;
+    stroke-width: 5px;
+    color: #F8E36A;
+    cursor: pointer;
+    vertical-align: middle;
+}   
+.nav-again{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 115px;
+    top: 20px;
+    cursor: pointer;
+    font-family: "VCR-OCD";
+    text-shadow:3px 1px #c36b93;
+    font-size: large;
+    background: #F1FFFB;
+}
+
+#contact{
+    width: 100%;
+   
+    padding: 0 25px;
+}
+.nav-again li{
+    text-align: right;
+    margin-left: 500px;
+}
+.emni{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: black;
+ text-shadow: 0px 0px;
+}
